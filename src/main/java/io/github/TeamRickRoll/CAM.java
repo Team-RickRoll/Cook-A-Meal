@@ -16,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Arrays;
 import java.util.List;
 
-public class CAK {
+public class CAM {
     public static void main(String[] args){
         MinecraftServer minestom = MinecraftServer.init();
         MojangAuth.init();

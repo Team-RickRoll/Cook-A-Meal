@@ -23,7 +23,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'io.github.TeamRickRoll.CAK',
+        attributes 'Main-Class': 'io.github.TeamRickRoll.CAM',
                 "Multi-Release": true
     }
 }

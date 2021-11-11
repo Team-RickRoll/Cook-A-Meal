@@ -27,7 +27,6 @@ class Items {
                 it.customModelData(1000001)
             })
             .build()
-    //do the same thing but name it cheese slice
 
     var cheeseSlice = ItemStack.builder(Material.APPLE)
             .displayName(Component.text("Cheese Slice", NamedTextColor.WHITE))
@@ -112,8 +111,6 @@ class Items {
                 it.customModelData(1000015)
             })
             .build()
-
-    //new item called knife that uses the Material IRON_SWORD with model data of 1234567
 
     var knife = ItemStack.builder(Material.IRON_SWORD)
             .displayName(Component.text("Knife", NamedTextColor.WHITE))

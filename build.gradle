@@ -1,0 +1,29 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.31'
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "6.1.0"
+}
+
+sourceCompatibility = 17
+group 'io.github.TeamRickRoll'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.spongepowered.org/maven' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation "com.github.Minestom:Minestom:-SNAPSHOT"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.TeamRickRoll.CAK',
+                "Multi-Release": true
+    }
+}

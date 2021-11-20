@@ -13,7 +13,7 @@ class StationInteract(eventNode: EventNode<Event>) {
             if(hand != Player.Hand.MAIN) return@listenOnly
             when(block.getTag(Tag.String("StationType"))){
                 "CuttingBoard" -> {
-                    println("SUSPICIOUS IMPOSTER")
+                    println("deboug mesog")
                 }
                 else -> {
                     // Not a custom station

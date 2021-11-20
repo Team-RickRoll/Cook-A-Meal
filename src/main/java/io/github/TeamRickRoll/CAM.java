@@ -9,9 +9,9 @@ import net.minestom.server.extras.MojangAuth;
 import net.minestom.server.instance.*;
 import net.minestom.server.instance.batch.ChunkBatch;
 import net.minestom.server.instance.block.Block;
+import net.minestom.server.tag.Tag;
 import net.minestom.server.world.biomes.Biome;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.Arrays;
 import java.util.List;
@@ -30,7 +30,7 @@ public class CAM {
                 for (byte x = 0; x < Chunk.CHUNK_SIZE_X; x++) {
                     for (byte z = 0; z < Chunk.CHUNK_SIZE_Z; z++) {
                         for (byte y = 0; y < 40; y++) {
-                            batch.setBlock(x, y, z, Block.STONE);
+                            batch.setBlock(x, y, z, Block.STONE.withTag(Tag.String("StationType"), "CuttingBoard"));
                         }
                     }
                 }
@@ -50,7 +50,7 @@ public class CAM {
             player.setRespawnPoint(new Pos(0, 40, 0));
         });
 
-        new KotlinTestFile().testFunc();
+        new KCAM();
 
         minestom.start("0.0.0.0", 25565);
     }

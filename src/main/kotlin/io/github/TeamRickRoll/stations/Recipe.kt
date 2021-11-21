@@ -1,4 +1,12 @@
 package io.github.TeamRickRoll.stations
 
-class Recipe {
+import net.minestom.server.item.ItemStack
+
+abstract class Recipe {
+    abstract val id: String
+    abstract val cookTime: Int
+    abstract val output: ItemStack
+
+    val cuttingBoardRecipes = mutableListOf<Recipe>()
+
 }

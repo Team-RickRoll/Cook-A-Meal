@@ -119,6 +119,181 @@ class Items {
             }
             .build()
 
+    val pepper = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Pepper", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000016)
+            }
+            .build()
+
+    val cucumber = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Cucumber", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000017)
+            }
+            .build()
+
+    val rawCorn = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Raw Corn", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000018)
+            }
+            .build()
+
+    val corn = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Corn", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000019)
+            }
+            .build()
+
+    val sausage = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Sausage", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000020)
+            }
+            .build()
+
+    val caesarSalad = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Caesar Salad", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000021)
+            }
+            .build()
+
+    val beefStew = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Beef Stew", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000022)
+            }
+            .build()
+
+    val tomatoSoup = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Tomato Soup", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000023)
+            }
+            .build()
+
+    val vegetableSoup = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Vegetable Soup", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000024)
+            }
+            .build()
+
+    val burrito = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Burrito", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000025)
+            }
+            .build()
+
+    val appleJam = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Apple Jam", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000026)
+            }
+            .build()
+
+    val appleSlice = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Apple Slice", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000028)
+            }
+            .build()
+
+    val rawBacon = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Raw Bacon", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000029)
+            }
+            .build()
+
+    val CookedBacon = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Cooked Bacon", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000030)
+            }
+            .build()
+
+    val BreadSlice = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Bread Slice", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000031)
+            }
+            .build()
+
+    val jamJar = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Jam Jar", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000032)
+            }
+            .build()
+
+    val flour = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Flour", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000033)
+            }
+            .build()
+
+    val cucumberSlice = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Cucumber Slice", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000034)
+            }
+            .build()
+
+    val cleanPotato = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Clean Potato", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000035)
+            }
+            .build()
+
+    val mashedPotato = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Mashed Potato", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000036)
+            }
+            .build()
+
+    val grilledCorn = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Grilled Corn", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000037)
+            }
+            .build()
+
+    val cookedChickenFillet = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Cooked Chicken Fillet", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000038)
+            }
+            .build()
+
+    val rawChickenFillet = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Raw Chicken Fillet", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000039)
+            }
+            .build()
+
+    val chickenLeg = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Chicken Leg", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000040)
+            }
+            .build()
+
+    val sandwich = ItemStack.builder(Material.APPLE)
+            .displayName(Component.text("Sandwich", NamedTextColor.WHITE))
+            .meta {
+                it.customModelData(1000041)
+            }
+            .build()
+
 
 
 }
